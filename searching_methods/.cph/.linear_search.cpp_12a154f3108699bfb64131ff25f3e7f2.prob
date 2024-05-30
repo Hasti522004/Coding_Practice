@@ -1,0 +1,1 @@
+{"name":"Local: linear_search","url":"f:\\Placement\\Coding\\searching_methods\\linear_search.cpp","tests":[{"id":1717063155906,"input":"5\n21 23 43 12 343\n12","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Placement\\Coding\\searching_methods\\linear_search.cpp","group":"local","local":true}
