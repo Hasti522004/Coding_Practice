@@ -50,7 +50,6 @@ void usingKadaneAlgo(int arr[],int n){
             currentsum = 0;
         }
         max_sum = max(max_sum,currentsum);
-        cout<<"max : "<<max_sum<<"Current : "<<currentsum<<endl;
     }
     cout<<"Max " <<max_sum;
 }

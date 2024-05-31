@@ -1,0 +1,1 @@
+{"name":"Local: minimum_missing_num","url":"f:\\Placement\\Coding\\array\\minimum_missing_num.cpp","tests":[{"id":1717122017761,"input":"7\n0 -9 1 2 3 -4 5","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Placement\\Coding\\array\\minimum_missing_num.cpp","group":"local","local":true}
