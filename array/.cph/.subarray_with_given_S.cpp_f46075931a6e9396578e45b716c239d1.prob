@@ -1,0 +1,1 @@
+{"name":"Local: subarray_with_given_S","url":"f:\\Placement\\Coding\\array\\subarray_with_given_S.cpp","tests":[{"id":1717120184086,"input":"5 12\n1 2 7 5","output":"2 4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Placement\\Coding\\array\\subarray_with_given_S.cpp","group":"local","local":true}
