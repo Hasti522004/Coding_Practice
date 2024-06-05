@@ -6,7 +6,7 @@ string removeDuplicates(string s)
         return "";
     }
     char ch=s[0];
-    string ans = remove
+    string ans ;
 }
 int main()
 {
