@@ -1,12 +1,13 @@
-class SuperClass {
+abstract class Test {
+       abstract void run();
+}
+
+class SuperClass extends Test{
        protected String car = "Maruti";
        static public int cal(int a, int b) {
               return 0;
        }
 
-       protected void run() {
-              System.out.println("Parent is Running");
-       }
        int a;
        SuperClass(int b){
               a=b;
@@ -16,13 +17,18 @@ class SuperClass {
        void setCar(String newcar){
               this.car = newcar;
        }
-       
+
+       @Override
+       public void run() {
+              // TODO Auto-generated method stub
+              throw new UnsupportedOperationException("Unimplemented method 'run'");
+       }
 }
 
 class SubClass extends SuperClass {
-       public void run() {
-              System.out.println("Child is Running");
-       }
+       // public void run() {
+       //        System.out.println("Child is Running");
+       // }
        SubClass(int b){
               super(b);
        }
@@ -55,10 +61,6 @@ public class debug {
               System.out.println(SuperClass.cal(0, 0));
               SuperClass sr = new SuperClass(1);
               ThirdClass th = new ThirdClass();
-              System.out.println(th.car);
-              
+              System.out.println(th.car); 
        }
-
-      
-       
 }
