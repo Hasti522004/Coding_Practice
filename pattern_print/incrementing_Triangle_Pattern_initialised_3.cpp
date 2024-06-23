@@ -4,11 +4,11 @@ int main()
 {
     int n;
     cin >> n;
-    for (int i=0;i<n;i++){
-        for(int j=0;j<i+1;j++){
-            cout<<"*";
+    for(int i=0;i<n;i++){
+        for(int j=n-i;j>0;j--){
+            cout<<n-i-1+3;
         }
         cout<<endl;
     }
-        return 0;
+    return 0;
 }
